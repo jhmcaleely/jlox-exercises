@@ -1,0 +1,26 @@
+class DevonshireCream {
+    serveOn() {
+        return "Scones";
+    }
+}
+
+print DevonshireCream;
+var cream = DevonshireCream();
+print cream;
+print cream.serveOn();
+
+class Cake {
+    init() {
+        this.flavour = "chocolate";
+    }
+
+    taste() {
+        var adjective = "delicious";
+        print "The " + this.flavour + " cake is " + adjective + "!";
+    }
+}
+
+var cake = Cake();
+cake.taste();
+cake.flavour = "Parkin";
+cake.taste();
